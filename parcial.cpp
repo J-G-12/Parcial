@@ -12,6 +12,8 @@ struct Point
 Teniendo en cuenta que solo necesita leer los valores, pero no modificarlos*/
 double calcularDistancia(Point p1, Point p2)
 {
+    double p1 = [3, 3];
+    double p2 = [2, 2];
     double fo = pow(point p1, 2) + pow(point p2, 2);
     double div = sqrt(fo);
     cout <<"La distancia es de: ", div;
@@ -27,10 +29,14 @@ void leerPuntos(Point puntos[], int n)
     // Leer la respuesta del usuario
     cin >> respuesta;
     // Completar: Verificar si la respuesta es 's' o 'n', tener en cuenta mayúsculas y minúsculas
-    if (respuesta == <valor a comparar><Operador logico> respuesta == <valor a comparar>)
-    {
+    if (respuesta == <"s"><Operador logico> respuesta == <"n">)
+    {   cout << "Coordenadas punto 1:";
+        cin >> p1;
+    
+        cout << "Coordenadas punto 2:";
+        
         // Completar: Leer las coordenadas de cada punto
-        for (puntos )
+        for (point p1 )
         {
             std::cout << "Ingrese las coordenadas del punto " << i + 1 << " (x, y): ";
             std::cin >> puntos[].>> puntos;
